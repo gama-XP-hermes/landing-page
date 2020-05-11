@@ -9,43 +9,43 @@ body {
   }
   
 header {
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
+  position: fixed;
+  top: 20px;
+  right: 80px;
+}
 
 header img {
-    width: 400px;
-  }
+  width: 200px;
+}
 
 div.container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-  }
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
 
 hgroup {
-    width: 400px;
-    height: 80px;
-    padding: 40px;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+  width: 500px;
+  min-height: 250px;
+  padding: 40px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 h1 {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
-    letter-spacing: 0.05em;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
- }
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 
 h2 {
     font-weight: 200;
@@ -56,11 +56,24 @@ h2 {
     align-items: center;
  }
 
- 
-@media (max-width: 575.98px) {
-  
-  body {
-    background-image: url(public/banner-thank-you-mobile.jpg);
-  }
 
+.btn {
+  background-color: #fc8154;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    background-image: url("./public/banner-thank-you-mobile.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
 }

@@ -46,7 +46,7 @@ form p {
 }
 
 input[type="submit"] {
-  background-color: #FC8154;
+  background-color: #fc8154;
   color: white;
   border-radius: 4px;
   cursor: pointer;
@@ -62,35 +62,41 @@ input[type="submit"]:hover {
 .social-media img {
   width: 20px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .social-media a {
   text-decoration: none;
   color: #ffffff;
-  text-shadow: 1px 1px 2px black; 
+  text-shadow: 1px 1px 2px black;
 }
 
 .social-media {
-  margin-top: 40px;
+  margin-top: 20px;
   color: #ffffff;
   font-size: 14px;
 }
 
-.social-media,.col-md-6,.col-6 {
+.social-media,
+.col-md-6,
+.col-6 {
   padding-left: 0;
   padding-right: 0;
 }
 
-
-@media (max-width: 575.98px) 
-{
-
+@media (max-width: 575.98px) {
   body {
     background-image: url("./public/banner-landing-mobile.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Roboto", sans-serif;
+    position: relative;
   }
 
   form {
-    margin-top: 100%;
+    margin-top: 100px;
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -114,5 +120,4 @@ input[type="submit"]:hover {
   .social-media img {
     margin-right: 5px;
   }
-
 }
