@@ -81,17 +81,24 @@ input[type="submit"]:hover {
     border: none;
     border-radius: 0;
     box-shadow: none;
+    padding-bottom: 0;
   }
 
   .social-media {
-    padding-top: 60px;
+    padding: 40px;
     margin-top: 0;
     color: #000000;
     font-size: 14px;
+    background-color: #ffffff;
   }
 
   .social-media a {
     color: #000000;
+    font-size: 12px;
+  }
+
+  .social-media img {
+    margin-right: 5px;
   }
 
 }
