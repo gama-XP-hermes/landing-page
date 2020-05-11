@@ -16,10 +16,16 @@ header {
   position: fixed;
   top: 20px;
   right: 80px;
+  display: flex;
+  align-items: center;
 }
 
 header img {
   width: 200px;
+}
+
+#share-buttons-bottom {
+  display: none;
 }
 
 form {
@@ -89,7 +95,10 @@ input[type="submit"]:hover {
   padding-right: 0;
 }
 
+/* Versão mobile ----------------------------------------------------------------------------------------- */
+
 @media (max-width: 575.98px) {
+
   body {
     background-image: url("./public/banner-landing-mobile.jpg");
     background-attachment: fixed;
@@ -125,4 +134,14 @@ input[type="submit"]:hover {
   .social-media img {
     margin-right: 5px;
   }
+
+  #share-buttons-top {
+    display: none;
+  }
+
+  #share-buttons-bottom {
+    display: block;
+    margin-bottom: 20px;
+  }
+
 }
