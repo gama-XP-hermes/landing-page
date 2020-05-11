@@ -2,7 +2,7 @@
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viagens do Olimpo</title>
     <link
       rel="stylesheet"
@@ -10,48 +10,59 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link type="text/css" rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="public/logo-escuro.png" alt="logo da Viagens do Olimpo">
+      <img src="public/logo-branco.png" alt="logo da Viagens do Olimpo" />
     </header>
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
-            <form
-              method="POST"
-              action="https://smtl.gama.academy/leads/db228f50-915e-11ea-9e98-2f3c29e0891c"
-              class="bg-white"
-            >
-              <h1>[E-book] Seu guia de viagem pós-pandemia</h1>
-              <div class="form-group">
-                <label for="name">Nome</label>
-                <input
-                  class="form-control"
-                  name="name"
-                  type="text"
-                  pattern="^\D{2,}\s[\D\s]{2,}$"
-                  placeholder="Digite seu nome completo"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="email">E-mail</label>
-                <input
-                  class="form-control"
-                  name="email"
-                  type="email"
-                  placeholder="Digite um email válido"
-                  required
-                />
-              </div>
-              
-              <input name="redirectTo" type="hidden" value="https://gama.academy" />
-              <input name="debugMode" type="hidden" value="true" />
-              <input type="submit" class="btn btn-block" value="Download gratuito" />
-            </form>
+          <form
+            method="POST"
+            action="https://smtl.gama.academy/leads/db228f50-915e-11ea-9e98-2f3c29e0891c"
+            class="bg-white"
+          >
+            <h1>[E-book] Seu guia de viagem pós-pandemia</h1>
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input
+                class="form-control"
+                name="name"
+                type="text"
+                pattern="^\D{2,}\s[\D\s]{2,}$"
+                placeholder="Digite seu nome completo"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                class="form-control"
+                name="email"
+                type="email"
+                placeholder="Digite um email válido"
+                required
+              />
+            </div>
+
+            <input
+              name="redirectTo"
+              type="hidden"
+              value="https://gama.academy"
+            />
+            <input name="debugMode" type="hidden" value="true" />
+            <input
+              type="submit"
+              class="btn btn-block"
+              value="Download gratuito"
+            />
+          </form>
         </div>
       </div>
     </div>

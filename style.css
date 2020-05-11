@@ -4,18 +4,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   position: relative;
 }
 
 header {
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 80px;
 }
 
 header img {
-  width: 400px;
+  width: 200px;
 }
 
 form {
@@ -23,7 +23,7 @@ form {
   padding: 40px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  min-width: 400px;
+  min-width: 300px;
 }
 
 h1 {
@@ -31,19 +31,18 @@ h1 {
   font-size: 30px;
   line-height: 35px;
   letter-spacing: 0.05em;
-  margin-bottom: 70px;
 }
 
 input[type="submit"] {
-  background-color: #ec6809;
+  background-color: #d91e40;
   color: white;
   border-radius: 4px;
   cursor: pointer;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 input[type="submit"]:hover {
-  background-color: #ba5106;
+  background-color: #99142c;
   transition: 0.3s;
 }
