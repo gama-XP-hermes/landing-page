@@ -67,3 +67,31 @@ input[type="submit"]:hover {
   padding-left: 0;
   padding-right: 0;
 }
+
+
+@media (max-width: 575.98px) 
+{
+
+  body {
+    background-image: url("./public/banner-landing-mobile.jpg");
+  }
+
+  form {
+    margin-top: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .social-media {
+    padding-top: 60px;
+    margin-top: 0;
+    color: #000000;
+    font-size: 14px;
+  }
+
+  .social-media a {
+    color: #000000;
+  }
+
+}
