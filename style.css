@@ -46,3 +46,24 @@ input[type="submit"]:hover {
   background-color: #99142c;
   transition: 0.3s;
 }
+
+.social-media img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-media {
+  margin-top: 60px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.social-media,.col-md-6,.col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
