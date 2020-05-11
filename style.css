@@ -42,6 +42,7 @@ form p {
   color: #828282;
   font-size: 13px;
   margin-top: 5px;
+  margin-bottom: 0;
 }
 
 input[type="submit"] {
@@ -101,12 +102,13 @@ input[type="submit"]:hover {
     margin-top: 0;
     color: #000000;
     font-size: 14px;
-    background-color: #ffffff;
+    background-color: #fafafa;
   }
 
   .social-media a {
     color: #000000;
     font-size: 12px;
+    text-shadow:none;
   }
 
   .social-media img {

@@ -1,5 +1,5 @@
 body {
-    background-image: url("./public/banner-thank-you.png");
+    background-image: url("./public/banner-thank-you.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -55,3 +55,12 @@ h2 {
     justify-content: center;
     align-items: center;
  }
+
+ 
+@media (max-width: 575.98px) {
+  
+  body {
+    background-image: url(public/banner-thank-you-mobile.jpg);
+  }
+
+}
