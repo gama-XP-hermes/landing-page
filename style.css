@@ -8,6 +8,16 @@ body {
   position: relative;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+header img {
+  width: 400px;
+}
+
 form {
   margin-top: 100px;
   padding: 40px;
