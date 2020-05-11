@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Circular Std;
+  src: url(../public/CircularStd-Book.ttf)
+}
+
+body {
+  background-color: #FC8154;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+div {
+  height: 10px; 
+  width: 750px; 
+  left: 0;
+  }
+
+.branco {
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  position: absolute;
+  display: flex;
+  top: 240px;
+  left: 80px;
+  font-weight: 800;
+}
+
+#ponto {
+  color: #FC8154;
+  margin: 0;
+}
+
+h2 {
+  position: absolute;
+  display: flex;
+  top: 320px;
+  left: 80px;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  top: 80px;
+  left: 80px;
+}
+
+header img {
+  width: 200px;
+}
