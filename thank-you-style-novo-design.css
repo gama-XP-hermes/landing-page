@@ -32,7 +32,7 @@ h1 {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -50,7 +50,7 @@ h2 {
 .social-media {
   position: absolute;
   bottom: 0;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .social-media img {
@@ -65,16 +65,21 @@ h2 {
   color: #5A5A5A;
 }
 
-#book {
+#book-section {
   background-color:#FC8154;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-#book img {
-  width: 40%
+#book-section img {
+  width: 65%
+}
+
+.logo-mobile {
+  display: none;
 }
 
 .btn {
@@ -92,4 +97,62 @@ h2 {
 .btn:hover {
   background-color: #e9ae98;
   transition: 0.3s;
+}
+
+/* Versão mobile ----------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+
+  .logo-mobile img {
+    left: 0;
+  }
+
+  #book-section {
+    height: 60vh;
+  }
+
+  #book-section img {
+    width: 50%;
+  }
+
+  .conteudo {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .social-media {
+    bottom: -90px;
+  }
+
+  .social-media div {
+    margin-top: 5px;
+  }
+
+
+
 }
