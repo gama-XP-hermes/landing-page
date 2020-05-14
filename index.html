@@ -59,9 +59,9 @@
         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
           <form
             method="POST"
-            action="https://smtl.gama.academy/leads/db228f50-915e-11ea-9e98-2f3c29e0891c"
             netlify
-            name="form-submit"
+            name="form"
+            id="form"
           >
             <h1>
               Planeje sua viagem após a pandemia<span class="dot">.</span>
@@ -77,6 +77,7 @@
                 type="text"
                 pattern="^\D{2,}\s[\D\s]{2,}$"
                 placeholder="Nome completo"
+                id="name"
                 required
               />
             </div>
@@ -86,15 +87,16 @@
                 name="email"
                 type="email"
                 placeholder="E-mail"
+                id="email"
                 required
               />
             </div>
 
-            <input
+            <!-- <input
               name="redirectTo"
               type="hidden"
               value="https://viagensdoolimpo.netlify.app/thank-you"
-            />
+            /> -->
             <!-- <input name="debugMode" type="hidden" value="true" /> -->
             <input type="submit" class="btn btn-block" value="Baixar Grátis" />
             <p>
@@ -151,5 +153,7 @@
       </div>
 
     </div>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script src="script.js"></script>
   </body>
 </html>
