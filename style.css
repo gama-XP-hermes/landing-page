@@ -47,6 +47,9 @@ h1 {
   line-height: 35px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #261015;
 }
 
 .dot {
@@ -54,15 +57,24 @@ h1 {
 }
 
 h2 {
-  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
   color: #5a5a5a;
 }
 
 form p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   color: #828282;
-  font-size: 13px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 0;
+  line-height: 20px;
+}
+
+#name, #email {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
 }
 
 input[type="submit"] {
@@ -73,6 +85,9 @@ input[type="submit"] {
   text-transform: uppercase;
   margin-top: 30px;
   height: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 input[type="submit"]:hover {
